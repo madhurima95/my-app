@@ -1,0 +1,49 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container-fluid text-center">
+        <div class="row content  header">
+            <div class="col-sm-9 ">
+          <p class="main">Audio Dictionary</p>
+            
+            <p class="main1">--quest to design advanced, feature rich online vocabulary builder.</p>
+           </div>
+           <div class="col-sm-3 count" >
+              <div class="well well-sm">total bookmark : {{child.count}}</div>
+           </div>
+        </div>
+       
+    <div class="row content">
+        <div class="col-sm-9 text-left">
+               
+            <div class="search">
+                    <!-- <ul class="navbar-nav" *ngFor="let policy of alphabet">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">{{policy}}</a>
+                      </li> -->
+                      <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+                            <div class="btn-group mr-2" role="group" aria-label="First group" *ngFor="let policy of alphabet">
+                              <button (click)="searchbyLetter(policy)" type="button" class="btn btn-secondary">{{policy}}</button>
+                              
+                            </div>
+                      </div>
+                    <!-- </ul> -->
+                  </div>
+                              
+                
+                <div class="row content">
+                <app-search></app-search>
+                </div>
+                <div class="row content dtable">
+                  <div class="col-sm-12">
+            <audio-list></audio-list></div></div>
+        </div>
+        <div class="col-sm-3 sidenav bookmarklist">
+                <app-bookmark #child></app-bookmark>
+        </div>
+    </div>
+</div>
+
+
+<!-- <audio-list></audio-list> -->
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,33 @@
+table {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 10px;
+  height: 100%;
+    overflow-y: auto;
+  
+}
+.dtable{
+  /* height: 100vh; */
+  width: 100%;
+}
+/* .dtable td {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+} */
+.mat-form-field {
+  font-size: 14px;
+  width: 30%;
+  margin-left: 20px;
+}
+
+.addTobookmark{
+  float: right;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px
+}
+.bookmarklist_content{
+  min-height: 80%;
+}

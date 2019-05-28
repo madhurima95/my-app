@@ -1,0 +1,51 @@
+table {
+    width: 100%;
+    /* float: right; */
+    margin-right: 10px
+  }
+  .footerbutton{
+      float: bottom;
+      padding-bottom: 15px;
+      position: fixed;
+      width: 372px;
+      color :#3F729B;
+      font-weight: bold;
+  }
+  .bookmarlist {
+    height: 650px;
+  }
+  .bookmarklist_content {
+    
+    min-height: 549px;
+    margin-bottom: 10px;
+  }
+
+  .deleteItem {
+    float: right;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .bookmark_header {
+    color :#3F729B;
+  }
+.bookmarklist_content {
+  /* height: 75vh; */
+  height: 76%;
+  overflow-y: auto;
+  font-size: 15px;
+  color :#3F729B;
+  font-weight:200;
+    /* font-style: italic; */
+    /* font-weight: bold; */
+  /* width: 372px; */
+}
+.bookmarklist_content span {
+  font-size: 15px;
+  color :#3F729B;
+  font-weight:200;
+}
+  /* .bookmark_header{
+    float: left;
+  } */

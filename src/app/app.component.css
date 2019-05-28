@@ -1,0 +1,41 @@
+.header{
+    height: 80px;
+    
+    background-color: #bdbdbd;
+    padding-top: 6px;
+    border-style: none none groove none ;
+    border-color:#9e9e9e;
+    text-align: left;
+    padding-left: 10px;
+}
+.main1{
+    font-weight: bold;
+}
+.header .main {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+}
+.count {
+    font-weight: bold;
+    font-size: 15px;
+}
+.search {
+    border-top: 1px;
+    border-bottom:1px
+}
+.bookmarklist_content{
+    min-height: 549px;
+    overflow:hidden; overflow-y:scroll;
+}
+.dtable{
+    height: 100%;
+    overflow-y: auto;
+    position: fixed;
+    width: inherit;
+}
+.bookmarklist{
+    border-style: none none none groove ;
+    border-color:#9e9e9e;
+    background-color: #bdbdbd;
+}

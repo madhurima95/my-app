@@ -1,0 +1,24 @@
+
+
+
+      <div class="bookmarlist">
+        <div class="bookmark_header row">
+          <div class="col-sm-12"><h3 class="w3-bar-item">
+          <span><i class="fa fa-bars"></i></span>Menu</h3>
+          </div>
+        </div>
+        <div class="bookmarklist_content row">
+          <div class="col-sm-12">
+          <ul class ="w3-ul w3-light-grey" [(ngModel)] ='bookmarkList' ngDefaultControl *ngFor="let policy of bookmarkList">
+           <li class="list-group-item d-flex justify-content-between align-items-center text-left">
+            <span class="itemContent">{{policy}}</span>
+              <span class="deleteItem"><i (click)="deleteItem($event)" class="fa fa-minus" aria-hidden="true"></i></span>
+            </li>
+            </ul>
+          </div></div>
+              <div class="footerbutton row">
+                  <div class="col-sm-12">
+                  <button type="button" class="btn btn-secondary btn-lg btn-block" (click)="clearAllItem($event)"><span><i class="fa fa-trash"></i></span>Clear All</button>
+              </div>
+              </div>
+        </div>   
